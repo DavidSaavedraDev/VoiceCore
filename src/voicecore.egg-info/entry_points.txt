@@ -1,2 +1,0 @@
-[console_scripts]
-voicecore = voice_assistant.__main__:main
