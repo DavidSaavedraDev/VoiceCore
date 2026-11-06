@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voicecore"
+version = "0.1.0"
+description = "Asistente de voz local y modular"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.1.0",
+    "numpy>=1.26.0",
+    "pyttsx3>=2.98",
+    "sounddevice>=0.5.0",
+    "soundfile>=0.12.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+voicecore = "voice_assistant.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

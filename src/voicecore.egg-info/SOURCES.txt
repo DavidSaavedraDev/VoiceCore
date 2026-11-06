@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/voice_assistant/__init__.py
+src/voice_assistant/__main__.py
+src/voice_assistant/audio.py
+src/voice_assistant/brain.py
+src/voice_assistant/config.py
+src/voice_assistant/stt.py
+src/voice_assistant/tts.py
+src/voicecore.egg-info/PKG-INFO
+src/voicecore.egg-info/SOURCES.txt
+src/voicecore.egg-info/dependency_links.txt
+src/voicecore.egg-info/entry_points.txt
+src/voicecore.egg-info/requires.txt
+src/voicecore.egg-info/top_level.txt
